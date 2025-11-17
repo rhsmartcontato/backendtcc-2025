@@ -1,6 +1,7 @@
-import {DatabaseSync} from "node:sqlite";
 
-import { dbPath } from "../src/utils/dbpath.js";
+import { DatabaseSync } from "node:sqlite";
+
+import { dbPath } from "../src/utils/dbpath.js"
 
 let db = null;
 
